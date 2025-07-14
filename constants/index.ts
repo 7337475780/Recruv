@@ -170,9 +170,9 @@ export const CODING_QUESTIONS: CodeQuestion[] = [
 ];
 
 export const LANGUAGES = [
-  { id: "javascript", name: "JavaScript", icon: "/javascript.png" },
-  { id: "python", name: "Python", icon: "/python.png" },
-  { id: "java", name: "Java", icon: "/java.png" },
+  { id: "javascript", name: "JavaScript", icon: "/icons/js.png" },
+  { id: "python", name: "Python", icon: "/icons/python.png" },
+  { id: "java", name: "Java", icon: "/icons/java.png" },
 ] as const;
 
 export interface CodeQuestion {

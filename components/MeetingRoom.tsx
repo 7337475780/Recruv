@@ -25,6 +25,8 @@ import {
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
 import { Button } from "./ui/button";
+import EndCallButton from "./EndCallButton";
+import CodeEditor from "./CodeEditor";
 
 type LayoutOption = "grid" | "speaker";
 
@@ -99,7 +101,8 @@ const MeetingRoom = () => {
                   <UsersIcon className="size-4" />
                 </Button>
 
-                {/* <EndCallButton /> */}
+                {/* EndCallButton */}
+                <EndCallButton />
               </div>
             </div>
           </div>
@@ -111,6 +114,7 @@ const MeetingRoom = () => {
         {/* Right Panel - Code Editor */}
         <ResizablePanel defaultSize={65} minSize={25}>
           {/* <CodeEditor /> */}
+          <CodeEditor />
         </ResizablePanel>
       </ResizablePanelGroup>
     </div>
